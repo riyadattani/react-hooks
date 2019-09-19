@@ -1,6 +1,11 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 
 const EditUserForm = ({currentUser, updateUser, setEditing}) => {
+    useEffect(
+        () => {
+            setUser(currentUser)
+        }, [currentUser])
+
     const [user, setUser] = useState(currentUser)
 
     const handleInputChange = event => {
