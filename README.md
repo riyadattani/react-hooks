@@ -1,5 +1,7 @@
 ## Contact List app using React-Hooks 
 
+[![Build Status](https://travis-ci.com/riyadattani/react-hooks.svg?branch=master)](https://travis-ci.com/riyadattani/react-hooks)
+
 ####Check it out 
 
 - Go to `react-hooks-curd.surge.sh`
